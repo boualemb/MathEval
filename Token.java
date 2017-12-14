@@ -6,8 +6,9 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class Token {
-    /**Nombre de lignes*/
+    /**Tokens*/
     List<String> Tok= new ArrayList<String>();
+    /** Mathematical expression */
     String exp;
     int Counter =0;
 
